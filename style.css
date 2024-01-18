@@ -1,0 +1,30 @@
+#todo {
+    width: min(40rem, 80%);
+}
+
+#btn {
+    width:100%;
+    margin:1rem 0;
+}
+
+#todoCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem 3%;
+}
+
+.todoCard {
+    position: relative;
+    width: 31%;
+}
+
+.todoCard textarea {
+    width: 100%;
+}
+
+.delBtn {
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    cursor: pointer;
+}
